@@ -229,7 +229,7 @@ h2.subtitle{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url("../../build/images/mount.png") no-repeat fixed;
+    background: url("../images/mount.png") no-repeat fixed;
     background-size: cover;
 }
 .container_image{
@@ -625,14 +625,16 @@ input.content_form_field{
 }
 
 input[type="email"]:-moz-placeholder,
-input[type="text"]:-moz-placeholder{
+input[type="text"]:-moz-placeholder,
+textarea:-moz-placeholder{
     color:#A3A5A4;
     opacity: 1;
     transition: opacity .3s ease;
 }
 
 input[type="email"]::-moz-placeholder,
-input[type="text"]::-moz-placeholder
+input[type="text"]::-moz-placeholder,
+textarea::-moz-placeholder
 {
     color:#A3A5A4;
     opacity: 1;
@@ -640,7 +642,8 @@ input[type="text"]::-moz-placeholder
 }
 
 input[type="email"]::-webkit-input-placeholder,
-input[type="text"]::-webkit-input-placeholder
+input[type="text"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder
 {
     font-size: 0.8em;
     color:#A3A5A4;
@@ -649,19 +652,22 @@ input[type="text"]::-webkit-input-placeholder
 }
 
 input[type="email"]:focus:-moz-placeholder,
-input[type="text"]:focus:-moz-placeholder
+input[type="text"]:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder
 {
     opacity: 0;
 }
 
 input[type="email"]:focus::-moz-placeholder,
-input[type="text"]:focus::-moz-placeholder
+input[type="text"]:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder
 {
     opacity: 0;
 }
 
 input[type="email"]:focus::-webkit-input-placeholder,
-input[type="text"]:focus::-webkit-input-placeholder
+input[type="text"]:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder
 {
     opacity: 0;
 }
