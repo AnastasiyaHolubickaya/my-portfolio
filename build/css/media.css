@@ -27,7 +27,7 @@
     .content_news{
         flex-direction: column;
     }
-    .content_news img {
+    .content_news  img{
         width: 35%;
     }
 }
@@ -92,7 +92,7 @@
         width: 100%;
         align-items: center;
     }
-    .block img {
+    .block > picture img {
         width: 50%;
     }
     .content_items {
@@ -109,7 +109,7 @@
     .content_news p {
         font-size: 13px;
     }
-    .content_news img {
+    .content_news >img {
         height: auto;
     }
     .content_news h4 {
