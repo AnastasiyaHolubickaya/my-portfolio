@@ -411,6 +411,12 @@ figcaption{
     outline: none;
     border: none;
 }
+.btn >a{
+    color: white;
+}
+.btn >a:hover{
+    color: white;
+}
 .content_items{
     flex: 0 0 50%;
     max-width: 50%;
